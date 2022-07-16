@@ -1,0 +1,36 @@
+.header {
+  border: 1px solid #ececec;
+  padding: 24px 0px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__log {
+  margin-right: 93px;
+}
+
+.nav {
+  margin-right: auto;
+}
+.nav__list{
+    display: flex;
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.header__contacts{
+    display: flex;
+}
+.header__contact-item:not(:last-child) {
+  margin-right: 30px;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+}
+.header__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
