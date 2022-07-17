@@ -95,34 +95,8 @@
   line-height: 1.88;
   /* identical to box height, or 188% */
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.current {
-  color: var(--blue-color);
-  position: relative;
-}
-.current::after {
-  content: '';
-  position: absolute;
-  display: inline-block;
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-  background-color: var(--blue-color);
-  bottom: 0;
-  left: 0;
-  transform: translateY(34px);
-}
+
+
 .backdrop {
   position: fixed;
   top: 0;
