@@ -473,7 +473,8 @@ label {
           align-items: baseline;
 }
 
-.footer__adress {
+.footer__adress-list {
+  width: 231px;
   margin-right: 70px;
 }
 
@@ -493,6 +494,7 @@ label {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer__contact {
